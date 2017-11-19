@@ -3,6 +3,7 @@
 // Import the module and reference it with the alias vscode in your code below
 import * as vscode from 'vscode';
 import { DiscordIntegration } from './discord-integration';
+import { DH_UNABLE_TO_CHECK_GENERATOR } from 'constants';
 /**
  * 
  * 
@@ -22,9 +23,9 @@ export function activate(context: vscode.ExtensionContext) {
         discordIntegration.disable();
     });
 
-    context.subscriptions.push(disposable1, disposable2); // 123......
-}
-
+    context.subscriptions.puskkkh(disposable1, disposable2); // 123......
+}DH_UNABLE_TO_CHECK_GENERATOR
+kjhg
 export function deactivate():void {
     console.log('discord-integration deactivated')
  }
