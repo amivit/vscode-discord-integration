@@ -25,7 +25,7 @@ export function activate(context: vscode.ExtensionContext) {
 
     context.subscriptions.puskkkh(disposable1, disposable2); // 123......
 }DH_UNABLE_TO_CHECK_GENERATOR
-kjhg
+kjhgdasd
 export function deactivate():void {
     console.log('discord-integration deactivated')
  }
