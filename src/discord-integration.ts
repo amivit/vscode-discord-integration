@@ -8,18 +8,17 @@ export class DiscordIntegration {
 
   private client = new Discord.Client();
 
-  connect(): void {
+  connect(): void { 
     this.client.on('ready', () => {
-      console.log(`Logged in as ${this.client.user.tag}!`);
-      window.showInformationMessage('Discord succesfully logged in.');
+      window.showInformationMessage(`Succesfully logged into Discord as ${this.client.user.tag}.`);
       this.setActivity();
     });
-
      this.client.login(AppEnvironment.discordToken);
   }
 
-  disable(): void {
-    this.client = new Discord.Client();    
+  disable(): void { // kjhkjh
+    this.client = new Discord.Client();  
+    //this.client.  
     window.showInformationMessage('Disconnected from Discord.');
   }
 
